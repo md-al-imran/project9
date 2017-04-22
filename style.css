@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+
+
+#wrapper{
+    width: 1200px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+/********this is for header style******/
+
+.header{
+    width: 100%;
+    height: 500px;
+    background-image: url(fullbody.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top_header{
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.heder_item_left{
+    height: 100%;
+    width: 270px;
+    float: left;
+}
+
+.heder_item_left h4 {
+  font-family: times new roman;
+  font-size: 29px;
+  line-height: 58px;
+  text-align: center;
+}
+
+.heder_item_midl{
+    height: 100%;
+    width: 600px;
+    float: left;
+    text-align: center;
+}
+
+.heder_item_midl img {
+  margin-top: -5px;
+  height: 77px;
+  width: 208px;
+}
+
+.heder_item_right{
+    height: 100%;
+    width: 323px;
+    float: left;
+    text-align: center;
+}
+
+.heder_item_right img {
+  margin-top: -4px;
+}
+/********end header style***********/
+
+/**********style for baner section*********/
+
+.banner {
+  //border: 1px solid #e5e5e5;
+  height: 410px;
+  margin-top: 4px;
+  width: 100%;
+  background-image: url(baner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.baner_item_left {
+  float: left;
+  height: 100%;
+  margin-left: 41px;
+  text-align: center;
+  width: 491px;
+}
+
+.baner_item_left > img {
+  margin-top: 43px;
+}
+
+
+.baner_item_right {
+  float: left;
+  height: 94%;
+  margin-left: 41px;
+  margin-top: 23px;
+  width: 556px;
+}
+
+.baner_item_right h2 {
+    color: #e19d49;
+    font-size: 40px;
+    font-weight: 400;
+    margin-left: 13px;
+    margin-top: 8px;
+}
+
+.baner_item_right h3 {
+    color: #b35f32;
+    font-size: 27px;
+    font-weight: 400;
+    margin-left: 40px;
+    margin-top: 4px;
+}
+
+.baner_item_right p {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  margin-left: 43px;
+  margin-right: 54px;
+  margin-top: 11px;
+  color: #a08a8a;
+}
+
+.baner_item_right button {
+  background-color: #f1a84c;
+  border: 0 none;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  margin: 22px 149px;
+  padding: 11px 36px;
+  text-transform: capitalize;
+  transition: all 0.6s;
+}
+
+.baner_item_right button:hover{
+    background-color: transparent;
+    color: #f1a84c;
+    border: 1px solid #f1a84c;
+}
+/*********end baner style*********/
+
+/********style for menubar************/
+
+.main_manu{
+    height: 62px;
+    width: 100%;
+    background-color: #E5DFD7;
+}
+
+.menubar {
+  background-color: #c2322f;
+  height: 62px;
+  width: 100%;
+}
+
+.menubar li {
+  display: inline-block;
+  height: 64px;
+  line-height: 59px;
+  margin: -2px;
+  text-align: center;
+  width: 150px;
+  transition: 0.5s;
+}
+
+.menubar ul {
+    margin-left: 68px;
+}
+
+.menubar ul li a {
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 21px;
+  font-family: times new roman;
+  font-weight: 400;
+  font-style: italic;
+  color: #F0A74A;
+  
+}
+
+.menubar ul li:hover{
+    background-color: #F0A74A;
+    color: aqua;
+}
+
+.menubar ul li:hover > a {
+  color: #fff;
+}
+/********end main menu**********/
+
+/*********start main container style**************/
+
+.container {
+  background-image: url("container.png");
+  background-repeat: no-repeat;
+  background-size: 138% 101%;
+  height: 763px;
+  width: 100%;
+}
+
+.container_top{
+    width: 100%;
+    height: 368px;
+    margin-top: 14px;
+}
+
+.container_item_left{
+    width: 390px;
+    height: 100%;
+    float: left;
+}
+
+.container_item_mdl{
+   width: 390px;
+    height: 100%;
+    float: left; 
+}
+
+.container_item_right{
+    width: 390px;
+    height: 100%;
+    float: left;
+}
+
+.content_item_top {
+  height: 143px;
+  margin: 24px auto 13px;
+  width: 172px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.content_item_bottom {
+  height: 164px;
+  width: 100%;
+}
+
+.content_item_top > img {
+  height: 132px;
+  margin-left: 6px;
+  margin-top: 6px;
+  text-align: center;
+  width: 160px;
+}
+
+.container_top h2 {
+  color: #f2aa4c;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 13px;
+  margin-top: 12px;
+}
+
+.container_top p {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  margin: 4px 20px;
+  text-align: center;
+}
+
+.content_item_bottom > button {
+  background: #f2a94c none repeat scroll 0 0;
+  border: 0 none;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  line-height: 7px;
+  margin-left: 124px;
+  margin-top: 5px;
+  padding: 13px 22px;
+  transition: all 0.6s ease 0s;
+  text-transform: uppercase;
+}
+
+.content_item_bottom > button:hover {
+  background-color: transparent;
+  border: 1px solid #f2a94c;
+  color: #f2a94c;
+}
+
+.border_content_top{
+    height: 1px;
+    width: 100%;
+    background-image: url(separator.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container_bottom h2 {
+  color: #f2aa4c;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 13px;
+  margin-top: 12px;
+}
+
+.container_bottom p {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  margin: 4px 20px;
+  text-align: center;
+}
+/**********end main conatiner************/
+
+/*********style for footer*********/
+.footer {
+  background-image: url("fullbody.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 64px;
+  margin-bottom: 31px;
+  width: 100%;
+}
+
+.footer #wrapper > p {
+  color: #f6f6f6;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 57px;
+  text-align: center;
+  font-style: italic;
+}
+
+
+
+/*
+ site creator shisir imran
+student of creative it institure BANGLADESH
+date:-22/04/2017
+vershion:1.1
+contact:shisirimran@yahoo.com
+website:www.imransorkar.tk
+
+*/
+
+
+
+
+
+
+
+
+
+
